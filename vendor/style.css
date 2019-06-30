@@ -1,0 +1,209 @@
+
+body{
+    background:url(../img/bg-pattern.png),-webkit-gradient(linear,right top,left top,from(#7b4397),to(#dc2430));
+}
+header{
+  height: 70px;
+  line-height: 70px;
+  position:fixed;
+  top: 0%;
+  z-index: 2;
+}
+p{
+  font-size: 18px;
+}
+.font{
+  font-family: 'Palanquin', sans-serif;
+}
+.navbar-nav{
+    margin-left: 30%;
+}
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  .clickable {
+    cursor: pointer;
+  }
+  .text-color{
+    color: #fff;
+  }
+  .nav-bar ul>li:last-child{
+    margin-left: 3%;
+  }
+  .hov-btn:hover{
+    color:yellow;
+  }
+  .contact-btn:hover{
+    background-color: rgba(1,1,1,0.1);
+    color: white; 
+  }
+  .button-hov:hover{
+    background-color: rgba(1,1,1,0.1);
+    color: rgb(0, 0, 0);
+    border: 1px solid black !important;
+  }
+  .text-bg-btn{
+    background-color:rgb(40, 167, 69);
+    color: rgb(255, 255, 255);
+  }
+  .text-top {
+    width: 90%;
+    left: 4%;
+    top: 15%;
+    z-index:1;
+    position: absolute;
+}
+.service-article:hover{
+  box-shadow:0px 5px 30px #dedada;
+}
+.icon-method-color{
+  font-size: 50px;
+  color:rgb(255,255,255);
+} 
+.icon-service{
+  font-size: 70px;
+  color: white;
+}
+.fab:hover{
+  color:rgb(40, 167, 69);
+}
+.round{
+  padding: 25px;
+  width: 130px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-laptop-code{
+  background-color: #dc2430;
+}
+.fa-mobile-alt{
+  background-color: green;
+}
+.fa-drafting-compass{
+  background-color: #7b4397;
+}
+.method-icon-bg{
+      padding: 15px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    background-color: black;
+}
+.row-img-feature{
+  margin-top: 7px;
+  height: 375px;
+  background-image: url(../img/business-img.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.row-img-feature-mobile{
+  margin-top: 7px;
+  height: 530px;
+  background-image: url(../img/business-img.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.row-img-aboutus{
+  height: 475px;
+  background-image: url(../img/sn.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.row-img-aboutus-mobile{
+  height: 635px;
+  background-image: url(../img/sn.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.section-top{
+  padding-top: 102px;
+}
+/*background for method icon*/
+.fa-lightbulb{
+  background-color: #dc2430;
+}
+.fa-paste{
+  background-color: green;
+}
+.fa-book-reader{
+  background-color: #7b4397;
+}
+.fa-cogs{
+  background-color: #dc2430;
+}
+.fa-users-cog{
+  background-color: green;
+}
+.fa-search{
+  background-color: #7b4397;
+}
+.fa-gift{
+  background-color: #dc2430;
+}
+.fa-praying-hands{
+  background-color: green;
+}
+.pic-row-service {
+  margin: 25px auto;
+}
+.method-para{
+  color: #666;
+}
+.service-bg-img{
+  color: #444;
+}
+.main-heading-color{
+  color: #444;
+}
+.map-office{
+  border-radius: 5px;
+}
+/*navbar burger*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

@@ -1,333 +1,611 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>Documentation-Mega Business</title>
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
-  <!-- bootstrap CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <!-- JS CDN -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- font family -->
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-  <!-- font awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clean App</title>
+    <link rel="icon" type="image/png" href="assets/img/icon.png">
+    <!-- Style link -->
+    <link rel="stylesheet" href="assets/vendor/style.css">
+    <!-- testomonial -->
+    <link rel="stylesheet" href="assets/vendor/testomional.css">
+    <!-- contact form -->
+    <link rel="stylesheet" type="text/css" href="assets/load/main.css">
+
+    <!-- bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- JS CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- font family -->
+    <link href="https://fonts.googleapis.com/css?family=Palanquin&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- CDN for Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
-<body data-spy="scroll" class="font">
-  <!-- <div style="overflow-x: hidden;"> -->
-  <div class="container-fluid wrapper">
-    <div class="banner">
-      <div class="row text-top text-center">
-        <div class="col-sm-12">
-          <h3 class="font-weight-bold display-4 text-white">Welcome to Mega Business</h3>
-          <p class="mx-5 text-white">This is the complete documentation to the Mega Business.</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="nav-position">
-        <div class="col-lg-3 col-md-12 col-sm-12 nav-col flex-column">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light flex-column d-lg-block d-none">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav flex-column mr-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="#introduction">Introduction</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#features">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#device">Device Support</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#heading">Heading and Brand Name</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#image">Image</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#youtube">Youtube Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#count">Project Count</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#icon">Icon and font</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#text">Text and Paragraph</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-
-          <header class="mobile Navbar container-fluid d-md-block d-lg-none d-sm-block d-xs-block">
+<body class="font">
+    <!-- header -->
+    <section class="head-section">
+        <!-- Navbar -->
+        <header class="Navbar container-fluid d-none d-lg-block">
+            <nav class="row m-0 ">
+                <div class="col-sm-4 pl-5  mt-3">
+                    <h4 class="text-warning ml-5"><a class="hov-btn link-unstyled " href="#"><i
+                                class="fab fa-affiliatetheme"></i>Clean App</a></h4>
+                </div>
+                <div class="col-sm-8 nav-bar">
+                    <ul class="list-inline text-light text-center">
+                        <li class="list-inline-item clickable mx-3"><a class="hov-btn link-unstyled " href="#">Home</a>
+                        </li>
+                        <li class="list-inline-item clickable mx-3"><a class="hov-btn link-unstyled "
+                                href="#feature">Features</a></li>
+                        <li class="list-inline-item clickable mx-3"><a class="hov-btn link-unstyled "
+                                href="#method">Method</a></li>
+                        <li class="list-inline-item clickable mx-3"><a class="hov-btn link-unstyled "
+                                href="#about">About
+                                Us</a></li>
+                        <li class="list-inline-item clickable mx-3"><a class="hov-btn link-unstyled "
+                                href="#testomonial">Testomonial</a></li>
+                        <li class="list-inline-item clickable"><a
+                                class="text-bg-btn contact-btn link-unstyled border border-2 rounded-pill px-3 py-2"
+                                href="#contactus">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- navabr -->
+        <header class="Navbar container-fluid d-md-block d-lg-none d-sm-block d-xs-block">
             <div id="mySidenav" class="sidenav">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-              <a onclick="closeNav()" class="border-bottom border-top"
-                href="#introduction">&nbsp;&nbsp;&nbsp;Introduction</a>
-              <a onclick="closeNav()" class="border-bottom border-top" href="#features">&nbsp;&nbsp;&nbsp;Features</a>
-              <a onclick="closeNav()" class="border-bottom border-top" href="#device">&nbsp;&nbsp;&nbsp;Device
-                Support</a>
-              <a onclick="closeNav()" class="border-bottom border-top" href="#heading">&nbsp;&nbsp;&nbsp;Heading and
-                Brand Name</a>
-              <a onclick="closeNav()" class="border-bottom border-top" href="#image">&nbsp;&nbsp;&nbsp;Image</a>
-              <a onclick="closeNav()" class="border-bottom border-top" href="#youtube">&nbsp;&nbsp;&nbsp;Youtube Link</a>
-              <a onclick="closeNav()" class="border-bottom border-top" href="#count">&nbsp;&nbsp;&nbsp;Project Count</a>
-              <a onclick="closeNav()" class="border-bottom border-top" href="#icon">&nbsp;&nbsp;&nbsp;Icon and font</a>
-              <a onclick="closeNav()" class="border-bottom border-top" href="#text">&nbsp;&nbsp;&nbsp;Text and
-                Paragraph</a>
-
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a onclick="closeNav()" href="#">Home</a>
+                <a onclick="closeNav()" href="#feature">Features</a>
+                <a onclick="closeNav()" href="#method">Method</a>
+                <a onclick="closeNav()" href="#about">About Us</a>
+                <a onclick="closeNav()" href="#testomonial">Testomonial</a>
+                <a onclick="closeNav()" href="#contactus">Contact Us</a>
             </div>
-            <span style="font-size:20px;cursor:pointer;color: black;" onclick="openNav()">&#9776; Menu</span>
-          </header>
+            <span style="font-size:20px;cursor:pointer;color: white;" onclick="openNav()">&#9776; Menu</span>
+        </header>
+        <!-- navbar -->
+        <!-- main to section -->
+        <main class="container-fluid mt-3 px-5 py-5 mb-2 d-none d-md-block d-lg-block">
+            <div class="row mx-0 pl-lg-5">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-white pt-5 mb-5">
+                    <h3 class="display-4 text-light font-weight-bold" data-aos="fade-right">App for you.</h3>
+                    <h2 class="text-light font-weight-bold" data-aos="fade-left">Beautiful & Better.</h2>
+                    <p class="text-color mt-4 mb-5" data-aos="fade-down">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex ea commodo consequat.</p>
+                    <a href="#"
+                        class="text-bg-btn contact-btn link-unstyled border border-2 rounded-pill px-5 py-2">DEMO</a>
+                    <a href="#"
+                        class="text-bg-btn contact-btn link-unstyled border border-2 rounded-pill ml-4 px-5 py-2">BUY</a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 pt-5 pt-md-5 text-center">
+                    <!-- <img src="img/mobile-app.png" alt="Img" width="100%"> -->
+                    <img src="assets/img/mobile-image.png" alt="Img" width="45%">
+                </div>
+            </div>
+        </main>
+        <!-- visible on sm -->
+        <main class="container-fluid mt-5 pb-5 mb-2 d-sm-block d-md-none d-lg-none ">
+            <div class="row px-5 mb-4">
+                <div class="col-sm-12 text-white my-5 px-0 d-sm-block d-md-none d-lg-none text-center">
+                    <h2 class="display-5 text-light font-weight-bold" data-aos="fade-right">App for you.</h2>
+                    <h2 class="text-light font-weight-bold" data-aos="fade-left">Beautiful & Better.</h2>
+                    <p class="text-color mt-4 mb-5" data-aos="fade-down">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex ea commodo consequat.</p>
+                    <a class="text-bg-btn link-unstyled contact-btn border border-2 rounded-pill px-4 py-2 mr-2"
+                        href="#" role="button">Demo</a>
+                    <a class=" text-bg-btn link-unstyled contact-btn border border-2 rounded-pill px-4 py-2" href="#"
+                        role="button">More</a>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <!-- <img src="img/mobile-app.png" alt="Img" width="100%"> -->
+                    <img src="assets/img/mobile-image.png" alt="Img" width="45%">
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!-- our features -->
+    <section class="container-fluid  section-top bg-light" id="feature">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h3 class="font-weight-bold display-4 main-heading-color">Features</h3>
+                <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt</p>
+            </div>
         </div>
-      </div>
-      <div class=" div-content col-lg-9 col-md-9 col-sm-12">
-
-        <!-- Introduction -->
-        <section id="introduction">
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <h3 class="font-weight-bold display-4 main-heading-color">Introduction</h3>
+        <div class="row px-5 mx-lg-5 px-sm-0 py-5">
+            <div class="col-sm-12 col-md-12 col-lg-4 px-3">
+                <article class="service-article text-center py-4 px-lg-5 px-md-3 px-sm-1" data-aos="fade-up">
+                    <i class="fas fa-laptop-code round icon-service"></i>
+                    <h4 class="mt-4 font-weight-bold display-5">Web Development</h4>
+                    <p class="mt-4 px-2 method-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmodLorem ipsum dolor sit
+                        amet, consectetur adipiscing elit, sed do eiusmodLorem ipsum dolor sit amet</p>
+                </article>
             </div>
-          </div>
-          <p>This template is the best suited for business, landing page, mobile app, portfolio, personal websites etc.
-            Mega Business uses the latest HTML5 and CSS3 standards. With the JavaScript library for animation the website
-            looks much interactive and catchy. We have used latest version of Bootstrap 4.2.1. The latest and up-to-date
-            technology have made this template stand among the rest. We have used fonts and icons through CDN which
-            makes it more easy to customize.<strong> Please, right click on the image and open in next tab to view it more clearly.</strong></p>
-        </section>
-
-        <!-- features -->
-        <section id="features">
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <h3 class="font-weight-bold display-4 main-heading-color">Features</h3>
+            <div class="col-sm-12 col-md-12 col-lg-4 px-3">
+                <article class="service-article text-center py-4 px-lg-5 px-md-3 px-sm-1" data-aos="fade-up">
+                    <i class="round fas fa-mobile-alt icon-service"></i>
+                    <h4 class="mt-4 font-weight-bold display-5">App Development</h4>
+                    <p class="mt-4 px-2 method-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmodLorem ipsum dolor sit
+                        amet, consectetur adipiscing elit, sed do eiusmodLorem ipsum dolor sit amet</p>
+                </article>
             </div>
-          </div>
-          <h5 class="font-weight-bold display-6 main-heading-color">Some features of our templates are:</h5>
-          <ol>
-            <li>
-              <b>Fully Responsive</b>
-              <p>Mega Business is single page fully responsive web template that is design mainly for the business organization. It looks and works best for all type of screen from large to small.</p>
-            </li>
-            <li>
-              <b>HTML5 and CSS3</b>
-              <p>This templates uses all the latest version of the technology. In this templates too we have used HTML5 and CSS3 for more powerful and functional template.</p>
-            </li>
-            <li>
-              <b>JQuery Animation</b>
-              <p>JQuery animation are popular and powerful too. We have used JQuery animation to make user interaction and make template more alive towards users.</p>
-            </li>
-            <li>
-              <b>One Page</b>
-              <p>Mega Business is single page website template for mobile app that is easy to use. The  transition to other page make it irritating. So to keep audience, single page websites are the ultimate solution.</p>
-            </li>
-            <li>
-              <b>Awesome Support</b>
-              <p>Mega Business have constant support from our team. We keep maintaining and updating the template to remove the bugs and problems users may have.</p>
-            </li>
-            <li>
-              <b>Documentation</b>
-              <p>We have complete documentation on the Mega Business. In documentation we will provide you with full information on the customization of the template.</p>
-            </li>
-            <li>
-              <b>Google Fonts</b>
-              <p>Google font is used in the template for the font. We have used attractive font but user can change the font easily.</p>
-            </li>
-            <li>
-              <b>Font Awesome Icons</b>
-              <p> All of the icons that are used in this template are used from the font awesome. This makes it easy for the user to change and use icons as the replacement or customization of the icons is easy.</p>
-            </li>
-            <li>
-              <b>Browser Compatibility</b>
-              <p>This template is all browser compatible. There is no any problems to the template due to browser type.</p>
-            </li>
-            <li>
-              <b>Bootstrap 4.2.1</b>
-              <p>We have used bootstrap 4.2.1 for our single page web template. Latest bootstrap have numerous function that make web page more attractive, functional and responsive.</p>
-            </li>
-
-          </ol>
-        </section>
-
-        <!-- device support -->
-        <section id="device">
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <h3 class="font-weight-bold display-4 main-heading-color">Device Support</h3>
+            <div class="col-sm-12 col-md-12 col-lg-4 px-3">
+                <article class="service-article text-center py-4 px-lg-5 px-md-3 px-sm-1" data-aos="fade-up">
+                    <i class="fas fa-drafting-compass round icon-service"></i>
+                    <h4 class="mt-4 font-weight-bold ">Graphic Designing</h4>
+                    <p class="mt-4 px-2 method-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmodLorem ipsum dolor sit
+                        amet, consectetur adipiscing elit, sed do eiusmodLorem ipsum dolor sit amet</p>
+                </article>
             </div>
-          </div>
-          <p>Mega Business supports all smart device. This template supports the device with large viewport to small smart
-            phone. <strong>Here we have Mega Business on different device:</strong></p>
-          <h5 class="font-weight-bold display-6 main-heading-color">Galexy S5</h5>
-          <figure class="text-center"><img src="assets/img/s5.png" width="35%" height="auto"></figure>
-          <h5 class="font-weight-bold display-6 main-heading-color">iPad</h5>
-          <figure class="text-center"><img src="assets/img/ipad.png" width="35%"></figure>
-          <h5 class="font-weight-bold display-6 main-heading-color">Pixel 2</h5>
-          <figure class="text-center"><img src="assets/img/pixel.png" width="35%"></figure>
-        </section>
-
-        <!-- heading and brand name -->
-        <section id="heading">
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <h3 class="font-weight-bold display-4 main-heading-color">Changing Heading and Brand Name</h3>
-            </div>
-          </div>
-          <h5 class="font-weight-bold display-6 main-heading-color">You can change the brand name by following steps:
-          </h5>
-          <ol>
-            <li><b>Go to index.html inside MegaBusiness folder of main folder.</b></li>
-            <li><b>Open the file in text editor eg: notepad++.</b></li>
-            <li><b>Change the name of brand from file.</b></li>
-          </ol>
-          <figure class="text-center"><img src="assets/img/brandname.png" width="60%" height="auto"></figure>
-          <br>
-          <h5 class="font-weight-bold display-6 main-heading-color">You can change the heading name by following steps:
-          </h5>
-          <ol>
-            <li><b>Go to index.html inside MegaBusiness folder of main folder.</b></li>
-            <li><b>Open the file in text editor eg: notepad++.</b></li>
-            <li><b>Change the name of the heading from file.</b></li>
-          </ol>
-          <figure class="text-center"><img src="assets/img/heading.png" width="60%" height="auto"></figure>
-        </section>
-
-        <!-- image -->
-        <section id="image">
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <h3 class="font-weight-bold display-4 main-heading-color">Changing Image</h3>
-            </div>
-          </div>
-          <p>Image can be changed in the template as per user choice. You can change the image by two method.</p>
-          <h5 class="font-weight-bold display-6 main-heading-color">Method 1:</h5>
-          <p>Changing image of html file</p>
-          <ol>
-            <li><b>Go to index.html inside MegaBusiness folder of main folder.</b></li>
-            <li><b>Open the file in text editor eg: notepad++.</b></li>
-            <li><b>Change the name of the image from file.</b></li>
-          </ol>
-          <figure class="text-center"><img src="assets/img/image-html.png" width="60%" height="auto"></figure>
-         
-          <h5 class="font-weight-bold display-6 main-heading-color">Method 2:</h5>
-          <ol>
-            <li><b>Go to img folder of MegaBusiness folder of main folder.</b></li>
-            <li><b>Change the name of the image from file.</b></li>
-          </ol>
-          <figure class="text-center"><img src="assets/img/image.png" width="60%" height="auto"></figure>
-        </section>
-
-        <!-- youtube video -->
-        <section id="youtube">
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <h3 class="font-weight-bold display-4 main-heading-color">Changing Youtube Link</h3>
-            </div>
-          </div>
-          <p>Youtube link can be changed in the template as per user choice. You can change the youtube video by.</p>
-          <ol>
-            <li><b>Go to index.html inside MegaBusiness folder of main folder.</b></li>
-            <li><b>Open the file in text editor eg: notepad++.</b></li>
-            <li><b>Change the name of the image from file.</b></li>
-          </ol>
-          <figure class="text-center"><img src="assets/img/youtube.png" width="60%" height="auto"></figure>
-        </section>
-
-        <!-- count -->
-        <section id="count">
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <h3 class="font-weight-bold display-4 main-heading-color">Changing Project Count</h3>
-            </div>
-          </div>
-          <p>You can change your project count and other number count by following.</p>
-          <ol>
-            <li><b>Go to index.html inside MegaBusiness folder of main folder.</b></li>
-            <li><b>Open the file in text editor eg: notepad++.</b></li>
-            <li><b>Change the number from file.</b></li>
-          </ol>
-          <figure class="text-center"><img src="assets/img/count.png" width="60%" height="auto"></figure>
-        </section>
-
-        <!-- icon and fonts -->
-        <section id="icon">
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <h3 class="font-weight-bold display-4 main-heading-color">Icons and Fonts</h3>
-            </div>
-          </div>
-          <p>We have used icons and fonts from the font awesome and google fonts respectively. Its more easy to change
-            icons and fonts.</p>
-          <h5 class="font-weight-bold display-6 main-heading-color">Changing Fonts:</h5>
-          <ol>
-            <li><b>Go to style.css inside css folder which is inside the MegaBusiness folder of main folder.</b></li>
-            <li><b>Check and select the name of the font family.</b></li>
-            <li><b>Add CDN/Link of font family inside head section of index.html</b></li>
-            <li><b>Change font family in style.css inside the css.</b></li>
-          </ol>
-          <p>Paste CDN/Link inside here by replacing highlighted CDN/Link of prevous font family.</p>
-          <figure class="text-center"><img src="assets/img/font-head.png" width="60%" height="auto"></figure>
-          <p>Replace the font family with new one.</p>
-          <figure class="text-center"><img src="assets/img/font-css.png" width="60%" height="auto"></figure>
-        </section>
-
-        <!-- Text and Paragraph -->
-        <section id="text">
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <h3 class="font-weight-bold display-4 main-heading-color">Text and Paragraph</h3>
-            </div>
-          </div>
-          <p>Changing text and paragraph in the template is very easy. There are same segment for different view
-            (Mobile, Laptop, Tablet) so be sure to change it all. Follow the steps below:</p>
-          <ol>
-            <li><b>Go to index.html inside the folder of MegaBusiness folder of main folder.</b></li>
-            <li><b>Change the text as per your wants.</b></li>
-            <figure class="text-center"><img src="assets/img/text.png" width="60%" height="auto"></figure>
-          </ol>
-        </section>
-
-      </div>
-    </div>
-    <!-- footer -->
-    <div class="row text-center footer">
-      <div class="col-12 col-lg-3"></div>
-      <div class="col-12 col-lg-6">
-        <div class="text-white">
-          <div class="col-sm-12 text-center">
-            <h3 class="font-weight-bold display-4 main-heading-color">Support</h3>
-          </div>
-          <div class="col-12 mt-3 text-center ">
-            <p>If you have any kind of problems relate to this template then please, feel free to contact us. <!-- For
-              <strong>premium support</strong> we have mail ID as below.</p> --><br/>
-            <i class="fas fa-envelope mt-4 fa-1x"></i>&nbsp;&nbsp;
-            <strong>support@pacificsofttect.com</strong>
-          </div>
         </div>
-      </div>
-      <div class="col-12 col-lg-3"></div>
-    </div>
-  </div>
-  <!-- </div> -->
-  <script type="text/javascript" src="assets/script.js"></script>
+        <div class="row px-2 mt-5 mx-5 row-img-feature d-none d-lg-block d-md-none" data-aos="fade-up">
+            <div class="col-12 mt-4 pt-2 ml-3 pic-row-service">
+                <h3 class="mt-5 display-4  font-weight-bold">Make your business smart.</h3>
+                <p class="mt-4 mb-5 w-50 service-bg-img">Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor
+                    sitamet
+                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                    Lorem ipsum dolor sit amet.</p>
+                <a class="text-bg-btn button-hov link-unstyled border border-2 rounded-pill px-5 py-2" href="#">LEARN
+                    MORE</a>
+            </div>
+        </div>
+        <!-- medium view -->
+        <div class="row px-2 mt-3 mx-5 row-img-feature d-none d-lg-none d-md-block" data-aos="fade-up">
+            <div class="col-12 mt-4 pt-2 ml-3 pic-row-service">
+                <h3 class="mt-2 display-4  font-weight-bold">Make your business smart.</h3>
+                <p class="mt-2 mb-5 w-75 service-bg-img">Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor
+                    sitamet
+                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                    Lorem ipsum dolor sit amet.</p>
+                <a class="text-bg-btn button-hov link-unstyled border border-2 rounded-pill px-5 py-2" href="#">LEARN
+                    MORE</a>
+            </div>
+        </div>
+        <!-- medium view -->
+        <!-- for mobile view -->
+        <div class="row mt-1 mx-0 row-img-feature-mobile d-md-none d-lg-none d-sm-block d-xs-block" data-aos="fade-up">
+            <div class="col-12 pic-row-service text-center">
+                <h3 class="mt-2 display-4 font-weight-bold">Make your business smart.</h3>
+                <p class="mt-3 mb-5 w-100 service-bg-img">Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor
+                    sitamet
+                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                    Lorem ipsum dolor sit amet.</p>
+                <a class="text-bg-btn button-hov link-unstyled border border-2 rounded-pill px-5 py-2" href="#">LEARN
+                    MORE</a>
+            </div>
+        </div>
+        <!-- end of mobile view -->
+    </section>
+
+    <!-- work flow section -->
+    <section class="container-fluid  section-top bg-light" id="method">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h3 class="font-weight-bold display-4 main-heading-color">Work Flow</h3>
+                <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt</p>
+            </div>
+        </div>
+        <div class="row mt-2 mx-lg-5">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <article class="text-center" data-aos="fade-up">
+                    <i class="method-icon-bg icon-method-color fas fa-lightbulb"></i>
+                    <h4 class="my-3 font-weight-bold">Generate Idea</h4>
+                    <p class="method-para">Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                        Lorem ipsum dolor sit amet.</p>
+                </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <article class="text-center" data-aos="fade-up">
+                    <i class="method-icon-bg icon-method-color fas fa-paste"></i>
+                    <h4 class="my-3 font-weight-bold">Gather Information</h4>
+                    <p class="method-para">Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                        Lorem ipsum dolor sit amet.</p>
+                </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <article class="text-center" data-aos="fade-up">
+                    <i class="method-icon-bg icon-method-color fas fa-book-reader"></i>
+                    <h4 class="my-3 font-weight-bold">Read Information</h4>
+                    <p class="method-para">Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                        Lorem ipsum dolor sit amet.</p>
+                </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <article class="text-center" data-aos="fade-up">
+                    <i class="method-icon-bg icon-method-color fas fa-cogs"></i>
+                    <h4 class="my-3 font-weight-bold">Understand the flow</h4>
+                    <p class="method-para">Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                        Lorem ipsum dolor sit amet.</p>
+                </article>
+            </div>
+        </div>
+        <div class="row mt-2 mx-lg-5">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <article class="text-center" data-aos="fade-up">
+                    <i class="method-icon-bg icon-method-color fas fa-users-cog"></i>
+                    <h4 class="my-3 font-weight-bold">Work on Idea</h4>
+                    <p class="method-para">Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                        Lorem ipsum dolor sit amet.</p>
+                </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <article class="text-center" data-aos="fade-up">
+                    <i class="method-icon-bg icon-method-color fas fa-search"></i>
+                    <h4 class="my-3 font-weight-bold">Look for Errors</h4>
+                    <p class="method-para">Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                        Lorem ipsum dolor sit amet.</p>
+                </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <article class="text-center" data-aos="fade-up">
+                    <i class="method-icon-bg icon-method-color fas fa-gift"></i>
+                    <h4 class="my-3 font-weight-bold">Produce output</h4>
+                    <p class="method-para">Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                        Lorem ipsum dolor sit amet.</p>
+                </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <article class="text-center" data-aos="fade-up">
+                    <i class="method-icon-bg icon-method-color fas fa-praying-hands"></i>
+                    <h4 class="my-3 font-weight-bold">Maintain and sustain</h4>
+                    <p class="method-para">Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                        Lorem ipsum dolor sit amet.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- about us -->
+    <section class="container-fluid  section-top bg-light" id="about">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h3 class="font-weight-bold display-4 main-heading-color">About Us</h3>
+                <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt</p>
+            </div>
+        </div>
+        <div class="row px-3 mx-5 row-img-aboutus mt-5 d-none d-md-none d-lg-block" data-aos="fade-up">
+            <div class="col-12 ml-3 py-3">
+                <h3 class="mt-2 display-4 font-weight-bold">Make your business smart.</h3>
+                <p class="mt-5 mb-5 w-50">Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                    Lorem ipsum dolor sit amet.</p>
+                <a class="text-bg-btn button-hov link-unstyled border border-2 rounded-pill px-5 py-2"
+                    data-aos="fade-up-left" href="#">LEARN MORE</a>
+            </div>
+        </div>
+        <!-- medium view -->
+        <div class="row px-3 mx-5 row-img-aboutus mt-4 d-none d-md-block d-lg-none" data-aos="fade-up">
+            <div class="col-12 ml-3 py-3">
+                <h3 class="mt-2 display-4 font-weight-bold">Make your business smart.</h3>
+                <p class="mt-5 mb-5 w-75">Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                    Lorem ipsum dolor sit amet.</p>
+                <a class="text-bg-btn button-hov link-unstyled border border-2 rounded-pill px-5 py-2"
+                    data-aos="fade-up-left" href="#">LEARN MORE</a>
+            </div>
+        </div>
+        <!-- medium view -->
+
+        <!-- for mobile view -->
+        <div class="row px-3 mx-0 row-img-aboutus-mobile mt-5 d-md-none d-lg-none d-sm-block d-xs-block"
+            data-aos="fade-up">
+            <div class="col-12  text-center">
+                <h3 class="mt-2 display-4 font-weight-bold">Make your business smart.</h3>
+                <p class="mt-5 mb-5 w-100">Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, sed do eiusmodLorem ipsum dolor sitamet
+                    Lorem ipsum dolor sit amet.</p>
+                <a class="text-bg-btn button-hov link-unstyled border border-2 rounded-pill px-5 py-2"
+                    data-aos="fade-up-left" href="#">LEARN MORE</a>
+            </div>
+        </div>
+        <!-- end of mobile view -->
+    </section>
+
+    <!-- testomonial -->
+    <section id="testomonial" class="container-fluid  section-top bg-light">
+        <div class="row ">
+            <div class="col-sm-12 text-center">
+                <h3 class="font-weight-bold display-4 main-heading-color">Testomonial</h3>
+                <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt</p>
+            </div>
+        </div>
+        <div class="row px-5 px-sm-1 mx-lg-5">
+            <div id="myCarousel" class="col-12 mx-auto carousel slide bg-dark container-fluid  px-5 py-5 mt-5"
+                data-ride="carousel" data-aos="fade-up">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                    <div class="item carousel-item active">
+                        <div class="img-box"><img src="assets/img/userImg.jpg" alt="Image"></div>
+                        <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia.
+                            Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus
+                            risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget
+                            rutrum.</p>
+                        <p class="overview"><b class="text-light">Phasellus vitae</b>Seo Analyst at <a href="#">Pacific
+                                SoftTech.</a></p>
+                        <div class="star-rating">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item carousel-item">
+                        <div class="img-box"><img src="assets/img/userImg.jpg" alt=""></div>
+                        <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem
+                            tempor,
+                            varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada
+                            ante.
+                            Vestibulum idac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non
+                            aliquet.
+                        </p>
+                        <p class="overview"><b class="text-light">luctus dui</b>Media Analyst at <a href="#">Pacific
+                                SoftTech.</a></p>
+                        <div class="star-rating">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item carousel-item">
+                        <div class="img-box"><img src="assets/img/userImg.jpg" alt=""></div>
+                        <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi
+                            a mi
+                            suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis.
+                            Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor
+                            velit.</p>
+                        <p class="overview"><b class="text-light">Vestibulum quis</b>Web Developer at <a
+                                href="#">Pacific SoftTech.</a></p>
+                        <div class="star-rating">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel controls -->
+                <a class="carousel-control left carousel-control-prev mt-3" href="#myCarousel" data-slide="prev">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                <a class="carousel-control right carousel-control-next mt-3 mr-1" href="#myCarousel" data-slide="next">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contactus -->
+    <section class="container-fluid pb-5  section-top bg-light" id="contactus">
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4 display-4 main-heading-color">Contact us</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us
+            directly. Our team will come back to you within
+            a matter of hours to help you.</p>
+
+        <div class="row mx-4 mx-lg-5" data-aos="fade-up">
+
+            <!--Grid column-->
+            <div class="col-md-8 col-lg-8 col-sm-12 mb-md-0 mb-5">
+                <form class="contact100-form mb-0" id="contact-form" name="contact-form" action="mail.php"
+                    method="POST">
+
+                    <!--Grid row-->
+                    <div class="wrap-input100 rs1-wrap-input100 validate-input col-sm-12 col-md-6 col-lg-6 px-1"
+                        data-validate="Name is required">
+                        <span class="label-input100">Your Name</span>
+                        <input class="input100" type="text" name="name" placeholder="Full Name">
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="wrap-input100 rs1-wrap-input100 validate-input col-sm-12 col-md-6 col-lg-6 px-1"
+                        data-validate="Valid email is required: ex@abc.xyz">
+                        <span class="label-input100">Email</span>
+                        <input class="input100" type="text" name="email" placeholder="Email Addess">
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-validate="Message is required">
+                        <span class="label-input100">Message</span>
+                        <textarea class="input100" name="message" placeholder="Your message here..."></textarea>
+                        <span class="focus-input100"></span>
+                    </div>
+                    <!--Grid row-->
+
+                </form>
+
+                <div class="text-center text-md-left mt-0">
+                    <a class="text-bg-btn button-hov link-unstyled border border-2 rounded-pill px-5 py-2"
+                        href="#">SUBMITT</a>
+                </div>
+                <div class="status"></div>
+            </div>
+            <!--Grid column-->
+            <div class="col-md-4 col-lg-4 col-sm-12 mb-md-0 mb-5 pl-lg-5 pl-md-2 pl-sm-2 contact-right-bar">
+                <h4 class="mt-5 ml-3 font-weight-bold display-5">Contact Info.</h4>
+                <div class="col-sm-12 col-md-12 col-lg-12 mt-3">
+                    <i class="fas fa-map-marker-alt mt-4 fa-1x"></i>
+                    <strong>Samakhusi, Kathmandu, Nepal</strong>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12 mt-3">
+                    <i class="fas fa-phone mt-4 fa-1x"></i>
+                    <strong>+977-98xxxxxxxx</strong>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12 mt-3">
+                    <i class="fas fa-envelope mt-4 fa-1x"></i>
+                    <strong>info@cleanapp.com</strong>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12 mt-5">
+                    <a class="link-unstyled mx-3" href="#">
+                        <i class="fab fa-facebook-f fa-lg white-text mr-2 fa-2x"> </i>
+                    </a>
+                    <a class="link-unstyled mx-3" href="#">
+                        <i class="fab fa-twitter fa-lg white-text mr-2 fa-2x"> </i>
+                    </a>
+                    <a class="link-unstyled mx-3" href="#">
+                        <i class="fab fa-linkedin-in fa-lg white-text mr-2 fa-2x"> </i>
+                    </a>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="t-3 page-footer font-small cyan darken-3 bg-dark">
+        <!-- Footer Elements -->
+        <div class="container text-light">
+            <!-- Grid row-->
+            <div class="row pt-5">
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-4 col-sm-12  mb-5">
+                    <h4 class="text-warning pl-1"><a class="hov-btn link-unstyled " href="#"><i
+                                class="fab fa-affiliatetheme"></i>Clean App</a></h4>
+                    <p class="my-5 py-2">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi
+                        suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis.
+                    </p>
+                    <div class="text-center text-light">
+                        <!-- Facebook -->
+                        <a class="link-unstyled" href="#">
+                            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="link-unstyled" href="#">
+                            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="link-unstyled" href="#">
+                            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="link-unstyled" href="#">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-4 col-sm-12  mb-5 d-none d-lg-block d-md-block">
+                    <h4 class="text-warning pl-1"><a class="hov-btn link-unstyled " href="#"><i
+                                class="fas fa-phone"></i>&nbsp;Get Support</a></h4>
+                    <p class="my-5 py-2">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi
+                        suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis.
+                    </p>
+                    <a class="text-bg-btn contact-btn link-unstyled border border-2 rounded-pill px-5 py-2"
+                        data-aos="fade-up-left" href="#">SUPPORT</a>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-4 col-sm-12 d-none d-md-none d-lg-block">
+                    <!-- row -->
+                    <div class="row">
+                        <!-- column -->
+                        <div class="col-sm-6">
+                            <h4 class="text-warning pl-1"><a class="hov-btn link-unstyled " href="#feature">Features</a>
+                            </h4>
+                            <ul class="my-5 py-2" style="list-style: none;">
+                                <li class="clickable"><a class="hov-btn link-unstyled mb-2" href="#feature">Generate
+                                        Idea</a></li>
+                                <li class="clickable"><a class="hov-btn link-unstyled mb-2" href="#feature">Gather
+                                        Info</a></li>
+                                <li class="clickable"><a class="hov-btn link-unstyled mb-2" href="#feature">Read
+                                        Information</a></li>
+                                <li class="clickable"><a class="hov-btn link-unstyled mb-2" href="#feature">Understand
+                                        Flow</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <h4 class="text-warning pl-1"><a class="hov-btn link-unstyled " href="#feature">&nbsp;</a>
+                            </h4>
+                            <ul class="my-5 py-2" style="list-style: none;">
+                                <li class="clickable"><a class="hov-btn link-unstyled mb-2" href="#feature">Work on
+                                        Idea</a></li>
+                                <li class="clickable"><a class="hov-btn link-unstyled mb-2" href="#feature">Look for
+                                        Errors</a></li>
+                                <li class="clickable"><a class="hov-btn link-unstyled mb-2" href="#feature">Produce
+                                        Output</a></li>
+                                <li class="clickable"><a class="hov-btn link-unstyled mb-2" href="#feature">Maintain</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row-->
+
+            <!-- Footer Elements -->
+            <hr>
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 text-light">© 2019 Copyright:
+                <a href="https://pacificsofttech.com" class="link-unstyled"> <strong class="text-success">Pacific
+                        SoftTech</strong></a>
+            </div>
+            <!-- Copyright -->
+    </footer>
+
+    <script type="text/javascript">
+        AOS.init({
+            duration: 1200,
+        })
+    </script>
+    <script src="assets/load/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="lassets/oad/main.js"></script>
+    <script src="assets/vendor/script.js"></script>
 </body>
 
 </html>
